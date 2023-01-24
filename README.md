@@ -1,10 +1,35 @@
-# Habits App
+Habits App
+
+Habits: Es una aplicacón desarrolada en Web. Móvil y un servidor integrado. Tiene la finalidad de registrar, listar los hábitos que se pueden planificar durante un dia en especifico, asi como llevar un registro de los hábitos que vamos cumpliendo viendose reflejados en una barra de progreso según el día.
 
 ## 🚀Features
 
 Para el desarrollo del proyecto se utilizo un stack con las siguientes tecnólogias:
 
-- 💹 **Node Js** — Web framework que permite utilizar javascript tanto en el frontend, como en el backend;
-- 🛢️ **PostgreSQL** — Es un servidor de base de datos objeto relacional libre, ya que incluye características de la orientación a objetos, como puede ser la herencia, tipos de datos, funciones, restricciones, disparadores, reglas e integridad transaccional, liberado bajo la licencia BSD
-- 💅 **Tailwind** — Es un framework de CSS de código abierto​ para el diseño de páginas web
-- ⚛️ **React Js** — Libreria de Javascript para la contrucción de interfaces.
+💻 Frontend
+
+- ⚛️ **React Js**
+- 💅 **Tailwind**
+- 📘 **TypeScript**
+- ⚡ **Vite**
+- 📙 **Raix UI**
+- 👾 **Axios**
+- 📅 **dayjs**
+
+📁 Backend
+
+- 💹 **Fastify**
+- 🛢️ **SQLite**
+- 🔖 **Prisma**
+- 📘 **Typescript**
+- 💎 **Zod**
+
+📱 Mobile
+
+- 🔷 **React Native**
+- ↩️ **React Navigation**
+- 🔰 **Expo**
+- 🎨 **Nativewind**
+- 📝 **React Navite SVG Tranformer**
+- 👾 **Axios**
+- 🎬 **React Native Reanimated**
