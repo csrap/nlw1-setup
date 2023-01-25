@@ -1,5 +1,9 @@
 Habits App
 
+<p align="center">
+  <img alt="rocketpay" src=".github/habits.png" width="100%">
+</p>
+
 Habits: Es una aplicacón desarrolada en Web. Móvil y un servidor integrado. Tiene la finalidad de registrar, listar los hábitos que se pueden planificar durante un dia en especifico, asi como llevar un registro de los hábitos que vamos cumpliendo viendose reflejados en una barra de progreso según el día.
 
 ## 🚀Features
