@@ -14,7 +14,7 @@ export function Header (){
 
     <TouchableOpacity
     activeOpacity={0.7}
-    className="flex-row h-11 px-4 border border-violet-500 rounded-lg"
+    className="flex-row h-11 px-4 py-2 border border-violet-500 rounded-lg"
     onPress={()=>navigate('new')}
     >
       <Feather
@@ -24,7 +24,7 @@ export function Header (){
       />
 
     <Text className="text-white ml-3 font-semibold text-base">
-      Novo
+      New
     </Text>
     </TouchableOpacity>
     </View>

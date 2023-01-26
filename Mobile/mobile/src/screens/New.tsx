@@ -32,7 +32,7 @@ function handleToggleWeekDay(weekDayIndex: number){
 async function handleCreateNewHabit(){
   try {
     if(!title.trim()|| weekDays.length === 0){
-      return Alert.alert('Novo Habito', 'Informe o novo do Hábito e escoala a periodicidade')
+      return Alert.alert('New Habit', 'Inform the new Habit and choose the frequency')
     }
 
     await api.post('/habits', {title, weekDays}); 
@@ -40,10 +40,10 @@ async function handleCreateNewHabit(){
     setTitle('');
     setWeekDays([]); 
 
-    Alert.alert('Novo Habito', 'Habito creado con sucesso')
+    Alert.alert('New Habit', 'Habit created successfully')
   } catch (error) {
     console.log(error)
-    Alert.alert('Ops', 'No foi possivel criar o novo hábito')
+    Alert.alert('Ops', 'Unable to create new habit')
   }
 }
 
@@ -73,7 +73,7 @@ async function handleCreateNewHabit(){
         </TextInput>
 
         <Text className="font-semibold mt-4 mb-3 text-white text-base">
-            Qual a recorrencia?
+        What is the recurrence?
         </Text>
 
         {
